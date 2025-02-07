@@ -1,4 +1,4 @@
-use warehouse compute_wh;
+#use warehouse compute_wh;
 
 with sum_sal as(
 select job,deptno,sum(sal) from dbt_src.emp
