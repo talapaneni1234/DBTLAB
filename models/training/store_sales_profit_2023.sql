@@ -4,7 +4,7 @@ select * from {{ref ('store_tbl_2023')}}
 ),
 store_sales_final as
 (
-select * from {{ ref('store_Sales_tbl_2023')}}
+select * from {{ ref('store_sales_tbl_2023')}}
 ),
 Final_Sales_profit as
 (
