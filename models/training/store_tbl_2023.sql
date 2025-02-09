@@ -1,6 +1,6 @@
 
 with store_tbl_2023 as
 (
-select s_store_sk,s_store_id,s_store_name,s_county from dbt_src.store_2023
-) 
+select S_STORE_SK,S_STORE_ID,S_STORE_NAME,S_COUNTY from dbt_src.Store_2023
+)
 select * from store_tbl_2023
