@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: DBT_SRC
+    database: DBT_SRC
+    schema: DBT_SRC
+    tables:
+      - name: STORE_2023
+      - name: Store_Sales_2023

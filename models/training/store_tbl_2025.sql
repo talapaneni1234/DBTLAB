@@ -1,6 +1,6 @@
 {{ config (materialized='table') }}
 with store_tbl_2025 as
 (
-    select S_STORE_SK,S_STORE_ID,S_STORE_NAME,S_COUNTY FROM {{ source('DBT_SRC', 'Store_2023')}}
+    select S_STORE_SK,S_STORE_ID,S_STORE_NAME,S_COUNTY FROM {{ source('DBT_SRC', 'STORE_2023')}}
 )
 select * from store_tbl_2025
