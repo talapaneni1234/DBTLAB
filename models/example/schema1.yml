@@ -19,3 +19,13 @@ models:
             tests:
                 - unique
                 - not_null
+
+    - name: topsal
+      description: "A starter dbt model"
+      columns:
+          - name: RANK_
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+            
